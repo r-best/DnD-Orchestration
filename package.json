@@ -10,7 +10,7 @@
         "install": "npm run cloneapi && npm run clonefrontend",
         "cloneapi": "git clone https://github.com/r-best/DnD-API.git && cd DnD-API && npm install && cd ..",
         "clonefrontend": "git clone https://github.com/r-best/DnD-Frontend.git && cd DnD-Frontend && npm install && cd ..",
-        "api": "node ./DnD-API/index.js",
+        "api": "cd DnD-API && node ./index.js",
         "frontend": "cd DnD-Frontend && ng serve --open"
     }
 }
